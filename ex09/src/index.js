@@ -24,7 +24,7 @@ console.log(
 );
 console.log(
   myFunction(
-    { title: "Titanic", song: "My Heart Will Go On", genre: "actor" },
+    { title: "Titanic", song: "My Heart Will Go On", genre: "drama" },
     "actor"
   )
 );
