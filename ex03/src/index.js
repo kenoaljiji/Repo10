@@ -7,9 +7,9 @@ var myFood = {
 function myFunction(myObj) {
   //Only change code below this line
 
-  var vegetableValue = myFood["vegetable"];
-  var fruitValue = myFood["fruit"];
-  var drinkValue = myFood["drink"];
+  var vegetableValue = myObj["vegetable"];
+  var fruitValue = myObj["fruit"];
+  var drinkValue = myObj["drink"];
 
   //Only change code above this line
   return {
@@ -19,6 +19,6 @@ function myFunction(myObj) {
   };
 }
 
-console.log(myFunction());
+console.log(myFunction(myFood));
 
 module.exports = myFunction(myFood);
