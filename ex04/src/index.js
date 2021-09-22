@@ -12,4 +12,4 @@ function myFunction(myObj) {
 
 console.log(myFunction(players));
 
-module.exports = myFunction(players);
+module.exports = { players, myFunction };
